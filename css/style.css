@@ -6,11 +6,10 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2); /* change background to a gradient */
+  font-family: 'Gabriela', serif; /* change font family */
+  font-size: 1.2em; /* change font size */
+  color: #333; /* change font color */
 }
 
 .wrapper {
@@ -25,17 +24,16 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+  color: #333; /* change header font color */
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3em; /* change header font size */
   margin-bottom: 0;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5em; /* change sub-header font size */
   margin-top: .5em;
 }
 
@@ -56,7 +54,7 @@ p {
 }
 
 a {
-  color: black;
+  color: #333; /* change link font color */
   text-decoration: none;
 }
 
@@ -75,12 +73,6 @@ a:hover {
     font-size: 120%;
   }
   h1 {
-    font-size: 2.5em;
-  }
-  h2 {
-    font-size: 1em;
-  }
-  .wrapper {
-    width: 95%;
+    font-size: 2.5
   }
 }
